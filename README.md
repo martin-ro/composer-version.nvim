@@ -1,8 +1,8 @@
 # composer-version.nvim
 
-Show the exact installed version of every Composer package as virtual text in `composer.json`, just like PhpStorm's little gray version numbers.
+Show the exact installed version of every Composer package as virtual text in `composer.json`, just like PhpStorm's gray version numbers.
 
-Versions are read from the adjacent `composer.lock`, so what you see is what's actually installed. Fully offline: no Packagist calls, no network requests, no external dependencies.
+Versions are read from the adjacent `composer.lock`, so what you see is what's actually installed.
 
 ![composer-version.nvim showing installed versions as virtual text](screenshot.png)
 
