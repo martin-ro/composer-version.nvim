@@ -4,20 +4,7 @@ Show the exact installed version of every Composer package as virtual text in `c
 
 Versions are read from the adjacent `composer.lock`, so what you see is what's actually installed. Fully offline — no Packagist calls, no network requests, no external dependencies.
 
-```jsonc
-{
-    "require": {
-        "php": "^8.4",
-        "laravel/framework": "^12.0",     // v12.18.0
-        "livewire/livewire": "^3.0"       // v3.6.3
-    },
-    "require-dev": {
-        "pestphp/pest": "^4.0"            // v4.0.3
-    }
-}
-```
-
-*(The annotations above are rendered as gray end-of-line virtual text, not actual file content.)*
+![composer-version.nvim showing installed versions as virtual text](screenshot.png)
 
 ## Requirements
 
